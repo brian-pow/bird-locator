@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+html {
+  background: #9595ff;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: #ecf8ff;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+  margin: 0;
+  color: #ecf8ff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 1.5rem;
+}
+
+.chatLine {
+  margin: 0.5rem 0;
+}
+
+.alignRight {
+  text-align: right;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border: none;
+  border-bottom: 1px solid #ecf8ff;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  font-size: 1.2rem;
+  width: 100%;
+  background-color: #9595ff;
+  color: #ecf8ff;
+  outline: none;
+}
+
+.width90 {
+  width: 85%;
+  display: inline-block;
+}
+
+.okSubmit {
+  display: inline-block;
+  text-align: center;
+  width: 15%;
+}
+
+.messageContainer {
+  text-align: right;
+}
+
+.message {
+  display: inline;
+  background: #dedede;
+  color: black;
+  font-family: "Nunito", sans-serif;
+  padding: 0px 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Sightings */
+
+.sightingsListHeaderDiv {
+  background: #6563b3;
+  color: white;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.sightingsListHeader {
+  margin: 0;
+}
+
+.sightingsListSciName {
+  margin: 0;
+}
+
+.sightingsListContainer {
+  margin: 1rem;
+}
+
+.sightingCard {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid;
+}
+
+.distance {
+  font-style: italic;
+  color: #cacaff;
+}
+
+.leftSide {
+  width: 80%;
+}
+
+.rightSide {
+  width: 20%;
+  text-align: center;
+}
