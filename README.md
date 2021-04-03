@@ -1,6 +1,6 @@
 This is a chatbot-style React app that helps the user locate nearby sightings of a particular bird species. User is prompted to enter a zip code and a bird of interest. User is then prompted to view a collection of the most recent sightings for selected species, incorporating links to driving directions to the specified sighting locations
 
-**TRY IT OUT HERE:** https://chi-town-birds.netlify.app/
+**TRY IT OUT HERE (MOBILE ONLY):** https://chi-town-birds.netlify.app/
 
 **Screenshots:**
 
